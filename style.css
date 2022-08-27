@@ -1,0 +1,15 @@
+
+body{
+    font-family: "Inter", sans-serif;
+}
+#logo{
+    font-family: 'EB Garamond', serif;
+    font-size: 30px;
+}
+a:link,
+a:visited {
+  color: black;
+}
+h1, h2, p{
+    text-align: center;
+}

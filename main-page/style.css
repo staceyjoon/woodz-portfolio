@@ -3,7 +3,7 @@ body {
   
 }
 .hero {
-  background-image: url(main-page/interior.jpg);
+  background-image: url(interior.jpg);
   background-position: center;
  background-size: cover;
  opacity: 0.8;

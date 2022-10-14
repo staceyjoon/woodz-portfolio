@@ -57,14 +57,15 @@
       </div>
     </nav>
     <div class="contact-form">
-      <form netlify>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      <form action="contact.php">
+      <div class="col-6">
+        <input name="name" placeholder="Name" required>
+        <input type="email" name="email"
+      class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       </div>
-      <div class="mb-3">
+      <div class="col-6">
         <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
         <input type="submit" value="Submit">
       </form>
       </div>

@@ -12,7 +12,6 @@
                             "Here is the message:\n $message".
 ?>
 <?php
-
 $to = "checkhovaas@gmail.com";
 
 $headers = "From: $email_from \r\n";

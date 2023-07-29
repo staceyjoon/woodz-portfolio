@@ -13,6 +13,7 @@ body {
 .photoBox{
     display: flex;
     justify-content: space-evenly;
+    padding-top: 15px;
 }
 @media screen and (max-width: 760px){
   .photoBox {
@@ -20,9 +21,10 @@ body {
       flex-direction: column;
       margin: 2em;
       justify-content: center;
+      padding-top: 0%;
   }
   .photos{
-    width: fit-content;
-    margin: 1em;
+    width: auto;
+    margin: 2em;
   }
 }
